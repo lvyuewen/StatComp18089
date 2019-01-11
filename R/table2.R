@@ -1,7 +1,7 @@
 #' @title Cross Tabulation and Table Creation
-#' @description table2 uses the cross-classifying factors to build a contingency table of the counts at each combination of factor levels.
-#' @param x vector
-#' @param y vector
+#' @description table2 uses the cross-classifying factors to build a contingency table of the counts at each combination of factor levels.a faster version.
+#' @param x the first vector,any length
+#' @param y the second vector,needing same length
 #' @return a contingency table \code{n}
 #' @examples
 #' \dontrun{

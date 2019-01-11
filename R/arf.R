@@ -1,8 +1,8 @@
 #' @title  Beta(a,b) distribution by the acceptance-rejection method
-#' @description the times of getting Beta(a,b) distribution by the acceptance-rejection method
-#' @param n number
-#' @param a number
-#' @param b number
+#' @description the required times of getting n points which satidfy Beta(a,b) distribution by the acceptance-rejection method
+#' @param n the whole number of Beta distribution
+#' @param a the first parameter of Beta distribution
+#' @param b the second parameter of Beta distribution
 #' @return times  \code{n}
 #' @examples
 #' \dontrun{

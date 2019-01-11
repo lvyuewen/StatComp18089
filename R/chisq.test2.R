@@ -1,7 +1,7 @@
-#' @title A chi-square test using R
-#' @description A chi-square test using R
-#' @param x1 vector
-#' @param x2 vector
+#' @title Pearson's Chi-squared Test for Count Data
+#' @description chisq.test performs chi-squared contingency table tests and goodness-of-fit tests,the faster version
+#' @param x1 the first vector,any length
+#' @param x2 the second vector,needing same length
 #' @return X-squared  \code{n}
 #' @examples
 #' \dontrun{
