@@ -1,0 +1,28 @@
+Package: StatComp18089
+Type: Package
+Title: Example functions for 'Statistical Computing' course
+Version: 0.1.0
+Author: 18089
+Maintainer: yuewen lv <lvyuewen@mail.ustc.edu.cn>
+Description: Several R  function are included in this package for illustration.
+Encoding: UTF-8
+LazyData: true
+License: GPL (>= 2)
+Imports: 
+    Rcpp (>= 0.12.16),
+    microbenchmark,
+    knitr,
+    rmarkdown,
+    MASS,
+    boot,
+    bootstrap,
+    DAAG,
+    Ball,
+    energy,
+    RANN,
+    foreach
+LinkingTo: Rcpp
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+URL: http://github.com/lvyuewen/StatComp18089
+BugReports: http://github.com/lvyuewen/StatComp18089/issues
