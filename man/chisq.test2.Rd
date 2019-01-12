@@ -2,20 +2,20 @@
 % Please edit documentation in R/chisq.test2.R
 \name{chisq.test2}
 \alias{chisq.test2}
-\title{A chi-square test using R}
+\title{Pearson's Chi-squared Test for Count Data}
 \usage{
 chisq.test2(x1, x2)
 }
 \arguments{
-\item{x1}{vector}
+\item{x1}{the first vector,any length}
 
-\item{x2}{vector}
+\item{x2}{the second vector,needing same length}
 }
 \value{
 X-squared  \code{n}
 }
 \description{
-A chi-square test using R
+chisq.test performs chi-squared contingency table tests and goodness-of-fit tests,the faster version
 }
 \examples{
 \dontrun{

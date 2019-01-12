@@ -7,15 +7,15 @@
 table2(x, y)
 }
 \arguments{
-\item{x}{vector}
+\item{x}{the first vector,any length}
 
-\item{y}{vector}
+\item{y}{the second vector,needing same length}
 }
 \value{
 a contingency table \code{n}
 }
 \description{
-table2 uses the cross-classifying factors to build a contingency table of the counts at each combination of factor levels.
+table2 uses the cross-classifying factors to build a contingency table of the counts at each combination of factor levels.a faster version.
 }
 \examples{
 \dontrun{

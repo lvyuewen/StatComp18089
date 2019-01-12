@@ -7,17 +7,17 @@
 arf(n, a, b)
 }
 \arguments{
-\item{n}{number}
+\item{n}{the whole number of Beta distribution}
 
-\item{a}{number}
+\item{a}{the first parameter of Beta distribution}
 
-\item{b}{number}
+\item{b}{the second parameter of Beta distribution}
 }
 \value{
 times  \code{n}
 }
 \description{
-the times of getting Beta(a,b) distribution by the acceptance-rejection method
+the required times of getting n points which satidfy Beta(a,b) distribution by the acceptance-rejection method
 }
 \examples{
 \dontrun{
